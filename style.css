@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(120deg, #1b1b1b, #3a1c71);
+  color: white;
+  height: 100vh;
+}
+
+.container {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+  resize: none;
+  font-size: 16px;
+}
+
+.rating {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+input[type=range] {
+  flex: 1;
+}
+
+#sleepScreen {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: black;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
